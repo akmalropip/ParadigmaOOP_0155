@@ -24,12 +24,10 @@ int main(){
     elektronik.tanggalProduksi = "2-Desember-2001";
     elektronik.printData();
     cout << endl;
-    
     Barang nonElektronik;
     nonElektronik.nama = "Kasur";
     nonElektronik.jumlah = 1;
     nonElektronik.kategori = "nonElektronik";
     nonElektronik.tanggalProduksi = "4-Januari-2003";
     nonElektronik.printData();
-
 }
