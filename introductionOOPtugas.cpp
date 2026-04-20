@@ -25,4 +25,11 @@ int main(){
     elektronik.printData();
     cout << endl;
     
+    Barang nonElektronik;
+    nonElektronik.nama = "Kasur";
+    nonElektronik.jumlah = 1;
+    nonElektronik.kategori = "nonElektronik";
+    nonElektronik.tanggalProduksi = "4-Januari-2003";
+    nonElektronik.printData();
+
 }
